@@ -4,4 +4,4 @@ const $Button = document.getElementById('btn');
 const $Alert = document.getElementById('alert');
 const $Error = 'DB IS NOT CONNECTED.';
 
-
+const hello = "BORRAR";
