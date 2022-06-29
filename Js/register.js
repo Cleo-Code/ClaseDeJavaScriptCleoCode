@@ -1,21 +1,10 @@
-function _sumar (a,b){
-    var resultado = a + b;
-    return resultado;
-};
+const $Button = document.getElementById('btn');
 
-_sumar(500,500);
+$Button.addEventListener('click', ()=>{
+    alert('Has tocado el boton!');
+    console.warn('Se ha presionado el boton');
+});
 
-const _restar = (a,b)=>{
-    var resultado = a - b;
-    return resultado;
-}
-
-const _multiplicar = (a,b)=>{
-    var resultado = a * b;
-    return resultado;
-}
-
-const _dvidir = (a,b)=>{
-    var resultado = a / b;
-    return resultado;
+$Button.onclick = ()=>{
+    
 }
