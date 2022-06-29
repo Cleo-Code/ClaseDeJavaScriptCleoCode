@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+:root {
+    --Background-color: rgb(2, 0, 18);
+    --Input-BG: rgb(0, 25, 65);
+    --Register-BG: rgb(5, 0, 44);
+    --Buttons-BG: rgb(15, 163, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Background-color);
+    font-family: PT Sans;
+    background-image: url(/SVG/waves.svg);
+}
+
+.MainContainer{
+    width: 300px;
+    height: 350px;
+    margin: 100px auto;
+    background-color: var(--Register-BG);
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+}   
+
+.MainMenu{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.MainMenu ul li {
+    display: inline;
+    margin: 0px 15px 0px 15px;
+}
+
+#FormContainer{
+    margin: 50px 0px 0px 0px;
+}
+
+#Welc{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 42px 0px 5px 0px;
+}
+
+.Inpt{
+    margin: 0px 0px 20px 0px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Input-BG);
+    outline: none;
+    padding: 0px 0px 0px 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.divisor{
+    width: 110px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--Buttons-BG);
+    margin: 0 auto;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    margin: 0px 0px 15px 0px;
+    background-color: var(--Buttons-BG);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#alert{
+    color: red;
+    display: none;
+}
+
+a{
+    color: white;
+}

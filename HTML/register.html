@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/register.css">
+    <title>CleoLibre</title>
+</head>
+    <body>
+        <header>
+            <nav class="MainMenu">
+                <ul>
+                    <li class="li"><a href="#">Home</a></li>
+                    <li class="li"><a href="#">About Us</a></li>
+                    <li class="li"><a href="#">Our Services</a></li>
+                    <li class="li"><a href="#">Account</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="MainContainer">
+            <h3 id="Welc">Welcome</h3>
+            <div class="divisor"></div>
+            <div id="FormContainer">
+                <input type="text" name="UserName" id="UserNameID" placeholder="UserName" oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/,'')" class="Inpt">
+                <input type="password" name="Password" id="PasswordID" placeholder="Password" oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/,'')" class="Inpt">
+                <br>
+                <button class="btn" id="btn">Register</button>
+                <br>
+                <h3 id="alert">ERROR</h3>
+                <a href="#">i already have an account</a>
+            </div>
+        </div>
+        <script src="/Js/register.js"></script>
+    </body>
+</html>
